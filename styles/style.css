@@ -2,49 +2,52 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-.container{
-  background: #C61414;  
-  width:100%;
-  margin:auto;
-  /*flex*/
-  display: flex;
-  flex-flow: row wrap
+    font-family: Montserrat,sans-serif;
+    text-transform: uppercase;
 }
 header{
-    background: #cf3333;
-    width: 100%;
-    height:100px;
-    /* flex */
-    display: flex; 
-    justify-content: space-between; /*Lo movemos para arriba a la derecha*/
-    align-items: center;
-    flex-flow: row wrap;
+    background-color: #e2132c;
+    padding: .5rem 5rem .5rem 9rem;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center
 }
 header nav{
-    width: 70%;
-    height: 50%;
+    height: 10px;
+    width:auto;
     /*flex */ 
     display: flex;
     flex-wrap:wrap;
     justify-content: space-around;
 }
-nav a{
+
+.menu{
+    align-self: flex-end;
+    color: #ffff;
+    font-size: 14px;
+    font-weight: bold;
     text-decoration: none;
-    color:#ffffff;
-    font-family:'Courier New' 'Lucida Console';
+    min-height: 20px;
+    padding: 8px;
+    margin: 0 10px;
 }
-
-
-div .logo img{
-    width: 50%;
-
+header img{
+    width: 90px;
+    height: 110px;
+    z-index: 2;
+    order: 2;
+    margin: 0 50px;
 }
-header div .logo{
-align-content: center;
+div .redes-menu{
+    align-self: flex-end;
+    padding: 0px;
+    margin:0;
+    width: 35px;
+    height: auto;
 }
-header div .redes-menu{
-    width:40px;
+.redes-m{
+    height: 20px;
 }
 main{
     width:100%;
