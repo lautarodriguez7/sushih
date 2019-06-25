@@ -1,0 +1,24 @@
+header{
+    background: #C61414;
+    width:100%;
+	padding:20px;
+ 
+	/* Flexbox */
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+ 
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+.social-menu{
+    width:50px;
+    height:50px;
+    display:flex;
+}
+.insta{
+    width:30px;  
+}
+a .header-menu{
+    text-decoration: none;
+}
