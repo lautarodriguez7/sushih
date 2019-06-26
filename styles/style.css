@@ -105,16 +105,21 @@ width:50px;
     margin-left: 20%;
 
 }
-.title-left h3, .redes-footer h3{
+.title-left h3, .title-right h3{
     margin: 0;
     color: rgb(163, 163, 163);
     font-size: 15px;
     font-weight: 750;
 }
-.redes-footer{
+.title-right{
     color: rgb(163, 163, 163);
     margin-right: 20%;
 }
-.redes-footer a img{
-    width: 30px;
+
+.redes-footer{
+    display: flex;
+}
+.redes-footer img{
+    width:30px;
+    margin:0px;
 }
