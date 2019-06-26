@@ -93,10 +93,28 @@ footer{
     align-items: center;
     position: fixed;
     left: 0;
+    /*flex*/
     display: flex;
     justify-content: space-around;
-  
 }
 footer div img{
 width:50px;
+}
+.title-left{
+    color:#fff;
+    margin-left: 20%;
+
+}
+.title-left h3, .redes-footer h3{
+    margin: 0;
+    color: rgb(163, 163, 163);
+    font-size: 15px;
+    font-weight: 750;
+}
+.redes-footer{
+    color: rgb(163, 163, 163);
+    margin-right: 20%;
+}
+.redes-footer a img{
+    width: 30px;
 }
