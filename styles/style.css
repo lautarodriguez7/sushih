@@ -123,3 +123,18 @@ width:50px;
     width:30px;
     margin:0px;
 }
+.single-prod{
+    display: flex;  
+}
+.image-prod{
+    position: relative;
+    flex-direction: column;
+    width: 250px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.image-prod {
+    width:250px;
+    height: 150px;
+}
