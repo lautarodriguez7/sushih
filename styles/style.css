@@ -130,7 +130,7 @@ div .redes-menu{
 .description-prod-text p{
     text-align: center;
 }
-p{
+p, h3{
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
