@@ -220,7 +220,7 @@ button{
     color: buttontext;
     letter-spacing: normal;
     word-spacing: normal;
-    text-transform: none;
+    text-transform: none; 
     text-indent: 0px;
     text-shadow: none;
     display: inline-block;
