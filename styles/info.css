@@ -1,5 +1,6 @@
 *{
     padding: 0;
+    margin:0;
     box-sizing: border-box;
     font-family: Montserrat,sans-serif;
     text-transform: uppercase;
@@ -110,15 +111,17 @@ div .redes-menu{
     font-weight: 65 0;
     width:96%;
     padding: 10px;  
+    margin-top:10px;
+    margin-bottom: 10px;
 }
 .container-title img{
-    width:53.5px;
+    width:53px;
     position: absolute;
-    left:95%;
+    left:94.8%;
     top:-5px;
 }
 .schedules{
-    padding: 0 1rem 40px;
+    padding: 0 1rem 50px;
     border-bottom: 3px solid #000;
     /*flex*/
     display: flex;
@@ -126,7 +129,13 @@ div .redes-menu{
 }
 .schedules h1{
     color:#db2525;
+    margin-top:20px;
 }
+.schedules p{
+    margin-bottom:10px;
+    margin-top:10px;
+}
+
 footer{
     background-color: #1f1f1c;
     bottom: 0;
