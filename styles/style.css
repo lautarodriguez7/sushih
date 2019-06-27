@@ -9,7 +9,7 @@ div{
 }
 button{
     -webkit-appearance: button;
- /*   -webkit-writing-mode: horizontal-tb !important;*/
+   -webkit-writing-mode: horizontal-tb !important;
     text-rendering: auto;
     color: buttontext;
     letter-spacing: normal;
@@ -32,9 +32,10 @@ button{
     border-image: initial;
 }
 header{
-    background-color: #e2132c;
+    background-color: #b92121;
     padding: .5rem 5rem .5rem 9rem;
     height: 75px;
+    /*flex*/
     display: flex;
     justify-content: center;
     align-items: center
@@ -276,10 +277,15 @@ width:50px;
 .title-right{
     color: rgb(163, 163, 163);
     margin-right: 20%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items:center; 
 }
 
 .redes-footer{
     display: flex;
+    margin: 10px;
 }
 .redes-footer img{
     width:30px;
