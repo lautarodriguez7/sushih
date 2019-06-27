@@ -95,6 +95,17 @@ h2{
     margin-inline-end: 0px;
     font-weight: bold;
 }
+.container-time{
+    min-width: 280px;
+    /*flex**/
+    display:flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.container-title{
+
+}
+
 footer{
     background-color: #1f1f1c;
     bottom: 0;
