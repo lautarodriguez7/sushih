@@ -219,10 +219,10 @@ p, h3{
     align-items: center;
 }
 .head-order img{
-    width:60px;
+    width:50px;
     position: absolute;
-    left:340px;
-    top:-31px;
+    left:280px;
+    top:-20px;
 }
 .head-order p{
     background: #b92121;
