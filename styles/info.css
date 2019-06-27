@@ -9,7 +9,6 @@ div{
 }
 button{
     -webkit-appearance: button;
-   -webkit-writing-mode: horizontal-tb !important;
     text-rendering: auto;
     color: buttontext;
     letter-spacing: normal;
@@ -76,7 +75,13 @@ div .redes-menu{
 .redes-m{
     height: 20px;
 }
-
+.header-m{
+    margin-bottom:120px;
+    padding: 0 9em;
+    /*flex*/
+    display: flex;
+    flex-direction: column; 
+}
 
 footer{
     background-color: #1f1f1c;
