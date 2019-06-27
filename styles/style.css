@@ -86,46 +86,6 @@ div .redes-menu{
     justify-content: center;
     flex-wrap: wrap;
 }
-footer{
-    background-color: #1f1f1c;
-    bottom: 0;
-    width: 100%;
-    height: 70px;
-    margin: 0;
-    padding: 0 1rem 0 0;
-    align-items: center;
-    position: fixed;
-    left: 0;
-    /*flex*/
-    display: flex;
-    justify-content: space-around;
-}
-footer div img{
-width:50px;
-}
-.title-left{
-    color:#fff;
-    margin-left: 20%;
-
-}
-.title-left h3, .title-right h3{
-    margin: 0;
-    color: rgb(163, 163, 163);
-    font-size: 15px;
-    font-weight: 750;
-}
-.title-right{
-    color: rgb(163, 163, 163);
-    margin-right: 20%;
-}
-
-.redes-footer{
-    display: flex;
-}
-.redes-footer img{
-    width:30px;
-    margin:0px;
-}
 .container-prod{
     max-width: 590px;
     min-width: 130px;
@@ -238,4 +198,44 @@ button{
     border-style: outset;
     border-color: buttonface;
     border-image: initial;
+}
+footer{
+    background-color: #1f1f1c;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    padding: 0 1rem 0 0;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    /*flex*/
+    display: flex;
+    justify-content: space-around;
+}
+footer div img{
+width:50px;
+}
+.title-left{
+    color:#fff;
+    margin-left: 20%;
+
+}
+.title-left h3, .title-right h3{
+    margin: 0;
+    color: rgb(163, 163, 163);
+    font-size: 15px;
+    font-weight: 750;
+}
+.title-right{
+    color: rgb(163, 163, 163);
+    margin-right: 20%;
+}
+
+.redes-footer{
+    display: flex;
+}
+.redes-footer img{
+    width:30px;
+    margin:0px;
 }
