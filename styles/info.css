@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat,sans-serif;
+    text-transform: uppercase;
+}
+div{
+    display: block;
+}
+button{
+    -webkit-appearance: button;
+   -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none; 
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: buttonface;
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+}
+header{
+    background-color: #b92121;
+    padding: .5rem 5rem .5rem 9rem;
+    height: 75px;
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+header nav{
+    height: 10px;
+    width:auto;
+    /*flex */ 
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+.menu{
+    align-self: flex-end;
+    color: #ffff;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    min-height: 20px;
+    padding: 8px;
+    margin: 0 10px;
+}
+header img{
+    width: 90px;
+    height: 110px;
+    z-index: 2;
+    order: 2;
+    margin: 0 50px;
+}
+div .redes-menu{
+    align-self: flex-end;
+    padding: 0px;
+    margin:0;
+    width: 35px;
+    height: auto;
+}
+.redes-m{
+    height: 20px;
+}
