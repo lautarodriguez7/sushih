@@ -214,7 +214,9 @@ p, h3{
 }
 .head-order img{
     width:55px;
-
+    position: absolute;
+    left:320px;
+    top:-31px;
 }
 .head-order p{
     background: #ad0909;
