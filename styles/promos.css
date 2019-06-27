@@ -63,8 +63,32 @@ div .redes-menu{
     align-items: center;
     flex-direction: column;
 }
-.main img{
-
+.menu-options{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.menu-options a{
+    text-decoration: none;
+    color: #000000;
+}
+.menu-options div{
+    border-bottom: 1px solid #d3d3d3;
+    padding: 1.5rem 1rem;
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.p-title{
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 0 15px;
+    width: 215px
+}
+.p-description{
+    font-size: 14px;
+    margin: 0;
 }
 footer{
     background-color: #1f1f1c;
