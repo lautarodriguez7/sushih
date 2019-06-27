@@ -7,6 +7,30 @@
 div{
     display: block;
 }
+button{
+    -webkit-appearance: button;
+ /*   -webkit-writing-mode: horizontal-tb !important;*/
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none; 
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: buttonface;
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+}
 header{
     background-color: #e2132c;
     padding: .5rem 5rem .5rem 9rem;
@@ -175,30 +199,33 @@ p, h3{
     border: 1px solid #909090;
     background: #fff;
 }
-button{
-    -webkit-appearance: button;
- /*   -webkit-writing-mode: horizontal-tb !important;*/
-    text-rendering: auto;
-    color: buttontext;
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: none; 
-    text-indent: 0px;
-    text-shadow: none;
-    display: inline-block;
-    text-align: center;
-    align-items: flex-start;
-    cursor: default;
-    background-color: buttonface;
-    box-sizing: border-box;
-    margin: 0em;
-    font: 400 13.3333px Arial;
-    padding: 1px 6px;
-    border-width: 2px;
-    border-style: outset;
-    border-color: buttonface;
-    border-image: initial;
+.order{
+    display: flex;
+    width: 33%;
+    max-width: 600px;
+    flex-direction: column;
+    margin-top: 20px;
+    min-width: 240px;
 }
+.head-order{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.head-order img{
+    width:55px;
+
+}
+.head-order p{
+    background: #ad0909;
+    color:#fff;
+    margin:0;
+    padding: 10px 5px 0px 20px;
+    height:30px;
+    width:100%;
+    font-weight: 550;
+}
+
 footer{
     background-color: #1f1f1c;
     bottom: 0;
