@@ -86,14 +86,11 @@ div .redes-menu{
 .title-h2 h2:first-child{
     margin-right:20px; 
 }
-h2{
-    display: block;
-    font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
+.selected-city{
+    color:#db2525;
+}
+.branch{
+    cursor: pointer;
 }
 .container-time{
     min-width: 280px;
