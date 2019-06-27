@@ -7,29 +7,7 @@
 div{
     display: block;
 }
-button{
-    -webkit-appearance: button;
-    text-rendering: auto;
-    color: buttontext;
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: none; 
-    text-indent: 0px;
-    text-shadow: none;
-    display: inline-block;
-    text-align: center;
-    align-items: flex-start;
-    cursor: default;
-    background-color: buttonface;
-    box-sizing: border-box;
-    margin: 0em;
-    font: 400 13.3333px Arial;
-    padding: 1px 6px;
-    border-width: 2px;
-    border-style: outset;
-    border-color: buttonface;
-    border-image: initial;
-}
+
 header{
     background-color: #b92121;
     padding: .5rem 5rem .5rem 9rem;
@@ -75,14 +53,48 @@ div .redes-menu{
 .redes-m{
     height: 20px;
 }
-.header-m{
-    margin-bottom:120px;
-    padding: 0 9em;
-    /*flex*/
+.main{
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
+    padding: 0 9rem;
+    margin-bottom: 120px;
 }
-
+.title-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid #000;
+    margin: 20px 0;
+    padding: 30px 0;
+}
+.title-h3{
+    /*flex*/
+    display:flex;
+    justify-content: space-between;
+}
+.title-h3 h3{
+    font-size:16px;
+}
+.title-h2{
+    /*flex*/
+    display:flex;
+    justify-content: flex-end;
+}
+.title-h2 h2{
+    font-size: 18px;
+}
+.title-h2 h2:first-child{
+    margin-right:20px; 
+}
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
 footer{
     background-color: #1f1f1c;
     bottom: 0;
