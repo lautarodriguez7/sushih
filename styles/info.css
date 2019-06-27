@@ -103,9 +103,33 @@ h2{
     flex-grow: 1;
 }
 .container-title{
-
+    display: flex;
+    position: relative;
+    align-items: center;
 }
-
+.container-title p{
+    background:#db2525;
+    color:#fff;
+    font-weight: 65 0;
+    width:96%;
+    padding: 10px;  
+}
+.container-title img{
+    width:53.5px;
+    position: absolute;
+    left:95%;
+    top:-5px;
+}
+.schedules{
+    padding: 0 1rem 40px;
+    border-bottom: 3px solid #000;
+    /*flex*/
+    display: flex;
+    flex-direction: column;
+}
+.schedules h1{
+    color:#db2525;
+}
 footer{
     background-color: #1f1f1c;
     bottom: 0;
