@@ -110,6 +110,11 @@ div .redes-menu{
     justify-content: center;
     flex-wrap: wrap;
 }
+.content-wrapper{
+    display: flex;
+    padding: 0 5rem;
+    justify-content: space-around;
+}
 .container-prod{
     max-width: 590px;
     min-width: 130px;
