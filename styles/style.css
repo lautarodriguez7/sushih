@@ -134,14 +134,14 @@ width:50px;
     flex-wrap: wrap;
 }
 .single-prod{
-    display: flex;
     position: relative;
-    flex-direction: column;
     width: 250px;
     padding: 25px;
-    justify-content: center;
     align-items: center;
-    
+    /*flex*/
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
 }
 .image-wrapper, .image-prod {
     width:250px;
@@ -151,7 +151,6 @@ width:50px;
     position:relative;
 }
 .description-prod-text{
-    display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
@@ -164,6 +163,9 @@ width:50px;
     visibility: hidden;
     opacity: .25;
     transition: opacity .2s,visibility .2s;
+    /*flex*/
+    display: flex;
+    justify-content: center;
 }
 .description-prod-text p{
     text-align: center;
