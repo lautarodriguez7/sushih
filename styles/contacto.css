@@ -63,15 +63,30 @@ div .redes-menu{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 3px solid #000;
     margin: 20px 0;
     padding: 30px 0;
 }
 .title-h3{
+    font-size:15px;
+    width: 100%;
     /*flex*/
     display:flex;
+    flex-direction: column;
     justify-content: space-between;
-    font-size:15px;
+}
+h3{
+    border-bottom: 3px solid #000;
+    padding-bottom: 30px;
+    padding-top:20px;
+    font-weight: 600;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: lighter;
 }
 footer{
     background-color: #1f1f1c;
