@@ -92,7 +92,6 @@ div .redes-menu{
     padding: 0 1rem;
     /*flex*/
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 .form-data p{
@@ -110,12 +109,17 @@ input, .msj-txt{
     box-shadow: inset 0 1px 8px rgba(0,0,0,.2);
 }
 .form-msj, .form-data{
-    margin-right: 40px;
-    width: 50%;
+    margin-right: 400px;
     /*flex*/
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+}
+.form-msj p{
+    margin: 0;
+    padding: 10px 0;
+    font-size: 13px;
+    font-weight: 700;
 }
 .msj-txt{
     height: 170px;
