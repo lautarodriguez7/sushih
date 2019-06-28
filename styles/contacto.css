@@ -138,6 +138,14 @@ input, .msj-txt{
     outline: none;
     cursor: pointer;
 }
+.contact-title p{
+    border-bottom: 3px solid #000;
+    padding-bottom: 35px;
+}
+.contact-title img{
+    width: 40px;
+    position: absolute;
+}
 footer{
     background-color: #1f1f1c;
     bottom: 0;
