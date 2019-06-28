@@ -88,12 +88,12 @@ div .redes-menu{
     margin-inline-end: 0px;
     font-weight: lighter;
 }
-.form-data{
-    margin-right: 40px;
+.form-contacto{
+    padding: 0 1rem;
+    /*flex*/
     display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    width: 40%;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .form-data p{
     margin: 0;
@@ -101,7 +101,7 @@ div .redes-menu{
     font-size: 13px;
     font-weight: 700;
 }
-input{
+input, .msj-txt{
     margin-bottom: 6px;
     height: 30px;
     padding: 5px;
@@ -109,7 +109,31 @@ input{
     outline: none;
     box-shadow: inset 0 1px 8px rgba(0,0,0,.2);
 }
-
+.form-msj, .form-data{
+    margin-right: 40px;
+    width: 50%;
+    /*flex*/
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.msj-txt{
+    height: 170px;
+    margin-bottom: 10px;
+    resize: none;
+}
+.submit{
+    background: #e2132c;
+    color: #fff;
+    border: none;
+    width: 90px;
+    flex-basis: 40px;
+    align-self: flex-end;
+    margin-bottom: 40px;
+    font-weight: 700;
+    outline: none;
+    cursor: pointer;
+}
 footer{
     background-color: #1f1f1c;
     bottom: 0;
@@ -124,7 +148,6 @@ footer{
     display: flex;
     justify-content: space-around;
 }
-
 footer div img{
 width:50px;
 }
