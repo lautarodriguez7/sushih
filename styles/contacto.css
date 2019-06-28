@@ -150,7 +150,15 @@ input, .msj-txt{
     width: 50px;
     position: absolute;
     left:86.1%;
-}   
+}  
+.contact-p{
+    width: 58%;
+    margin:10px;
+    margin-left: 0;
+} 
+.contact-p p{
+    font-size: 12px;
+}
 footer{
     background-color: #1f1f1c;
     bottom: 0;
