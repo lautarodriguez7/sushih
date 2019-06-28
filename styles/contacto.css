@@ -149,7 +149,7 @@ input, .msj-txt{
 .contact-title img{
     width: 50px;
     position: absolute;
-    left:86%;
+    left:86.1%;
 }   
 footer{
     background-color: #1f1f1c;
@@ -182,7 +182,8 @@ width:50px;
 .title-right{
     color: rgb(163, 163, 163);
     margin-right: 20%;
-    display: flex;
+    /*flex*/
+    display:flex;
     justify-content: flex-end;
     flex-wrap: wrap;
     align-items:center; 
@@ -194,5 +195,5 @@ width:50px;
 }
 .redes-footer img{
     width:30px;
-    padding: 1px;
+    padding:1px;
 }
