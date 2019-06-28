@@ -124,6 +124,7 @@ footer{
     display: flex;
     justify-content: space-around;
 }
+
 footer div img{
 width:50px;
 }
