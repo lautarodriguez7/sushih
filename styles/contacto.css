@@ -115,6 +115,9 @@ input, .msj-txt{
     flex-direction: column;
     flex-grow: 1;
 }
+.form-data{
+    margin-right: 550px;
+}
 .form-msj p{
     margin: 0;
     padding: 10px 0;
