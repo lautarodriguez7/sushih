@@ -95,8 +95,13 @@ div .redes-menu{
     flex-grow: 1;
     width: 40%;
 }
+.form-data p{
+    margin: 0;
+    padding: 10px 0;
+    font-size: 13px;
+    font-weight: 700;
+}
 input{
-    margin-top:6px;
     margin-bottom: 6px;
     height: 30px;
     padding: 5px;
@@ -104,6 +109,7 @@ input{
     outline: none;
     box-shadow: inset 0 1px 8px rgba(0,0,0,.2);
 }
+
 footer{
     background-color: #1f1f1c;
     bottom: 0;
