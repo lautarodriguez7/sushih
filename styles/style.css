@@ -124,12 +124,13 @@ div .redes-menu{
     flex-wrap: wrap;
 }
 .single-prod{
+   
     position: relative;
     width: 250px;
     padding: 25px;
-    align-items: center;
     /*flex*/
     display: flex;
+    align-items: center;
     flex-direction: column;    
     justify-content: center;
 }
