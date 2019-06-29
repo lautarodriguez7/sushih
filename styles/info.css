@@ -121,7 +121,7 @@ div .redes-menu{
     top:-5px;
 }
 .schedules{
-    padding: 0 1rem 50px;
+    padding: 0 1rem 20px;
     border-bottom: 3px solid #000;
     /*flex*/
     display: flex;
@@ -129,7 +129,7 @@ div .redes-menu{
 }
 .schedules h1{
     color:#db2525;
-    margin-top:20px;
+    margin-top:30px;
 }
 .schedules p{
     margin-bottom:10px;
