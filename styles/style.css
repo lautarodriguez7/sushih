@@ -128,6 +128,7 @@ div .redes-menu{
     position: relative;
     width: 250px;
     padding: 25px;
+    margin: 10px;
     /*flex*/
     display: flex;
     align-items: center;
