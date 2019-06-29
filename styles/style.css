@@ -140,6 +140,9 @@ div .redes-menu{
 .image-wrapper{
     position:relative;
 }
+.container-prod div{
+    display: flex;
+}
 .description-prod-text{
     align-items: center;
     justify-content: center;
