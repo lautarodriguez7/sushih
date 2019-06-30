@@ -86,8 +86,10 @@ div .redes-menu{
     align-items: flex-end
 }
 .redes-m{
-    height: 20px;
-    align-items: flex-end;
+    order: 3;
+    align-self: flex-end;
+    padding: 0;
+    margin: 0;
 }
 .main{
     padding: 0 10rem;
