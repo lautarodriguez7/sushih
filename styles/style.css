@@ -48,7 +48,6 @@ header nav{
     flex-wrap:wrap;
     justify-content: space-around;
 }
-
 .menu{
     align-self: flex-end;
     color: #ffff;
@@ -58,6 +57,18 @@ header nav{
     min-height: 20px;
     padding: 8px;
     margin: 0 10px;
+    order:1
+}
+.menu2{
+    align-self: flex-end;
+    color: #ffff;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    min-height: 20px;
+    padding: 8px;
+    margin: 0 10px;
+    order:3
 }
 header img{
     width: 90px;
