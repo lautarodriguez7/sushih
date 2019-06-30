@@ -104,7 +104,11 @@ div .redes-menu{
     width: 50px;
     height: 50px
 }
-
+.first{
+    color: #000;
+    font-weight: 700;
+    text-shadow: 1px 0 #000;
+}
 .menu-first{
     margin: 50px 0 20px;
     /*flex*/
