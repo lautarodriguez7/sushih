@@ -178,7 +178,6 @@ input, .msj-txt{
 }
 .contact-title{
     border-bottom: 2px solid #000;
-    width: 100%;
     /*flex*/
     display: flex;
     align-items: flex-end;
@@ -190,6 +189,7 @@ input, .msj-txt{
 
 .contact-title img{
     width: 65px;
+    position: relative;
 }  
 .contact-p{
     width: 58%;
