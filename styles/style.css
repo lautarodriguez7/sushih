@@ -34,20 +34,13 @@ button{
 header{
     background-color: #b92121;
     padding: .5rem 5rem .5rem 9rem;
-    height: 75px;
+    height: 85px;
     /*flex*/
     display: flex;
     justify-content: center;
     align-items: center
 }
-header nav{
-    height: 10px;
-    width:auto;
-    /*flex */ 
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: space-around;
-}
+
 .menu{
     align-self: flex-end;
     color: #ffff;
