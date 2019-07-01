@@ -181,6 +181,7 @@ input, .msj-txt{
     /*flex*/
     display: flex;
     align-items: flex-end;
+
 }
 .contact-title h3{
     padding-bottom: 35px;
@@ -189,7 +190,8 @@ input, .msj-txt{
 
 .contact-title img{
     width: 65px;
-    position: relative;
+    left: 83%;
+    position: absolute;
 }  
 .contact-p{
     width: 58%;
