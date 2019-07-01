@@ -247,3 +247,18 @@ width:50px;
     width:30px;
     padding:1px;
 }
+@media screen and (max-width: 800px){
+header{
+        display: none;
+        flex-wrap: wrap;
+    }
+} 
+
+@media only screen and (max-width: 800px) {
+    .menu-first a {
+        display: block;
+        width: 100%;
+        border: 3px solid #000;
+    }
+} 
+
