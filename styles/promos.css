@@ -116,6 +116,9 @@ div .redes-menu{
     margin: 0 0 15px;
     width: 215px
 }
+.sub-title{
+    border-bottom: 3px solid #ff2a2a;
+}
 .p-description{
     font-size: 14px;
     margin: 0;
