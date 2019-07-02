@@ -113,6 +113,10 @@ div .redes-menu{
     font-size:16px;
     /*flex*/
     display: flex;
+    align-items: flex-end
+}
+.moshi{
+    width:50px;
 }
 .title-h2{
     /*flex*/
@@ -132,9 +136,7 @@ div .redes-menu{
     cursor: pointer;
 }
 
-.moshi{
-    width:50px;
-}
+
 .container-time{
     min-width: 280px;
     /*flex**/
