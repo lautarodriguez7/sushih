@@ -111,6 +111,8 @@ div .redes-menu{
 }
 .title-h3 h3{
     font-size:16px;
+    /*flex*/
+    display: flex;
 }
 .title-h2{
     /*flex*/
@@ -129,6 +131,10 @@ div .redes-menu{
 .branch{
     cursor: pointer;
 }
+
+.moshi{
+    width:50px;
+}
 .container-time{
     min-width: 280px;
     /*flex**/
@@ -144,7 +150,7 @@ div .redes-menu{
 }
 .container-horario{
     width: 40%;
-    margin-left:20px;
+    margin-left:60px;
 }
 .container-title{
     display: flex;
