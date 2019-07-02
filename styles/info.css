@@ -133,8 +133,14 @@ div .redes-menu{
     min-width: 280px;
     /*flex**/
     display:flex;
-    flex-direction: column;
-    flex-grow: 1;
+    flex-grow: 1; 
+}
+.mapa{
+    width: 50%;
+    height: auto;
+}
+.container-horario{
+    width: 40%;
 }
 .container-title{
     display: flex;
