@@ -241,8 +241,10 @@ width:50px;
     }
     .map{
         order:2;
+        margin-top:20px;
     }
     .container-horario{
         order:1;
     }
+
 }
