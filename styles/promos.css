@@ -174,3 +174,8 @@ width:50px;
     width:30px;
     padding: 1px;
 }
+@media screen and (max-width: 800px){
+    header .menu, header .menu2, header .redes-m{
+        display: none;
+    }
+}
