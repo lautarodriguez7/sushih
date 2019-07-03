@@ -322,4 +322,8 @@ width:50px;
     header .menu, header .menu2, header .redes-m{
         display: none;
     }
+
+    main .order{
+        display: none;
+    }
 }
