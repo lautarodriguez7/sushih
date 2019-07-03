@@ -266,11 +266,3 @@ header {
 }
 }
 
-@media only screen and (max-width: 800px) {
-    .menu-first a {
-        width: 100%;
-        border: 3px solid #000;
-    }
-} 
-
- 
