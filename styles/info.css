@@ -229,5 +229,19 @@ width:50px;
     header .menu, header .menu2, header .redes-m{
         display: none;
     }
-    
+    .container-time{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .map,  .container-horario{
+        width: 100%;
+        height: auto;
+        margin-top:10px;
+        margin:0;
+    }
+   {
+        width: 100%;
+        margin-left:85px;
+    }
 }
