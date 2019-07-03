@@ -113,13 +113,14 @@ div .redes-menu{
     font-size:16px;
     /*flex*/
     display: flex;
-    align-items: flex-end
+    align-items: flex-end;
 }
-
-.moshi{
+div .moshi{
+    display: flex;
+    
+}
+.moshi img{
     width:50px;
-    position: absolute;
-    left:88%;
 }
 
 .container-time{
@@ -137,7 +138,7 @@ div .redes-menu{
 }
 .container-horario{
     width: 40%;
-    margin-left:60px;
+    margin-left:85px;
 }
 .container-title{
     display: flex;
