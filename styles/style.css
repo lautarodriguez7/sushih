@@ -343,4 +343,13 @@ width:50px;
         flex-direction: row;
         justify-content: flex-start;
     }
+    .container-prod{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        width: 250px;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
 }
