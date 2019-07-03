@@ -196,9 +196,13 @@ input, .msj-txt{
 }
 
 .contact-title img{
-    width: 65px;
-    left: 70%;
+    width: 65px;    
 }  
+.moshi{
+    display: flex;
+    position: relative;
+    left:70%;
+}
 .contact-p{
     width: 58%;
     margin:10px;
