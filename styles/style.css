@@ -322,7 +322,7 @@ width:50px;
     header .menu, header .menu2, header .redes-m{
         display: none;
     }
-    main .menu-first{
+    main .menu-first, main .container-prod{
         flex-direction: column;
         align-items: center;
     }
