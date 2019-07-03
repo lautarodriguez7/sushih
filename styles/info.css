@@ -115,27 +115,12 @@ div .redes-menu{
     display: flex;
     align-items: flex-end
 }
+
 .moshi{
     width:50px;
+    position: absolute;
+    left:88%;
 }
-.title-h2{
-    /*flex*/
-    display:flex;
-    justify-content: flex-end;
-}
-.title-h2 h2{
-    font-size: 18px;
-}
-.title-h2 h2:first-child{
-    margin-right:20px; 
-}
-.selected-city{
-    color:#db2525;
-}
-.branch{
-    cursor: pointer;
-}
-
 
 .container-time{
     min-width: 280px;
