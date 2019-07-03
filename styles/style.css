@@ -326,7 +326,21 @@ width:50px;
         flex-direction: column;
         align-items: center;
     }
+    main .menu-first{
+    display: flex;
+    flex-direction: row;
+}
     main .order{
         display: none;
+    }
+    .menu-main{
+        min-height: 85px;
+        width: auto;
+        align-items: center;
+        border-bottom: 1px solid #000;
+        /*flex*/
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
     }
 }
