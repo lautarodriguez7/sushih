@@ -117,10 +117,13 @@ div .redes-menu{
 }
 div .moshi{
     display: flex;
-    
+    position: relative;
+    bottom:95px;
+    left:15px;
 }
 .moshi img{
     width:50px;
+ 
 }
 
 .container-time{
