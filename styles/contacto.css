@@ -284,6 +284,12 @@ width:50px;
     .form-contact {
         flex-direction: column;
     }
+    .form-data{
+        width: 100%;
+    }
+    .form-msj textarea{
+        width:100%;
+    }
     .contact-title img{
     width: 65px;
     margin: 0;   
