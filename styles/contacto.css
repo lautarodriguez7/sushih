@@ -281,6 +281,9 @@ width:50px;
         align-self: flex-start;
         width: 100%;
     }
+    .form-contact {
+        flex-direction: column;
+    }
     .contact-title img{
     width: 65px;
     margin: 0;   
