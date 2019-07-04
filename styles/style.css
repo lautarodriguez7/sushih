@@ -325,6 +325,9 @@ width:50px;
     padding: 1px;
 }
 @media screen and (max-width: 800px){
+    header{
+        width: 100%;
+    }
     header .menu, header .menu2, header .redes-m{
         display: none;
     }
@@ -360,10 +363,8 @@ width:50px;
     }
     .icon-menu{
         padding: 0;
-        margin-left: 50px;
         /*flex*/
         display: flex;
         order: 3;
-        align-self: flex-end;
     }
 }
