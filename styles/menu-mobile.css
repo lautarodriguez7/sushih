@@ -4,13 +4,16 @@
     box-sizing: border-box;
     font-family: Montserrat,sans-serif;
     text-transform: uppercase;
+    background-color: #b92121;
 }
 div{
     display: block;
 }
 header{
-
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container-div img{
+    width: 150px;
 }
