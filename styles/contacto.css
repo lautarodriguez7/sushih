@@ -290,6 +290,9 @@ width:50px;
     .form-msj textarea{
         width:100%;
     }
+    .form-msj button{
+        align-self: flex-start;
+    }
     .contact-title img{
     width: 65px;
     margin: 0;   
