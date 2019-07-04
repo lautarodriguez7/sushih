@@ -40,7 +40,13 @@ header{
     justify-content: center;
     align-items: center
 }
-
+.icon-menu{
+    width: 50px;
+    height: auto;
+    position: relative;
+    top:50px;    
+    display: none;
+}
 .menu{
     align-self: flex-end;
     color: #ffff;
