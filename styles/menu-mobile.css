@@ -34,3 +34,9 @@ header{
     font-size: 20px;
     margin-left:50px;
 }
+.menu a:hover{
+    text-decoration: none;
+    color:rgb(100, 2, 2);
+    font-size:22px;
+    margin-left: 60px;
+}
