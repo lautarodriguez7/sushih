@@ -123,10 +123,11 @@ div .redes-menu{
     border-bottom: 3px solid #000;
     padding-bottom: 30px;
     padding-top:20px;
+    width: 99%;
     font-weight: 600;
 }
 .title-h3 p{
-    display: ;
+    display: flex;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -135,8 +136,16 @@ div .redes-menu{
     width: 70%;
     font-size: 12px;
 }
+.title-sec{
+    width: 100%;
+    /*flex*/
+    display: flex;
+    justify-content: space-between;
+}
 .title-h3 img{
     width: 70px;
+    position: relative;
+    top:-35px;
 }
 
 .form-contact{
