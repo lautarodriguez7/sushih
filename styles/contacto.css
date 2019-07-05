@@ -126,7 +126,7 @@ div .redes-menu{
     font-weight: 600;
 }
 .title-h3 p{
-    display: block;
+    display: ;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -134,7 +134,9 @@ div .redes-menu{
     font-weight: 500;
     width: 70%;
     font-size: 12px;
-
+}
+.title-h3 img{
+    width: 70px;
 }
 
 .form-contact{
