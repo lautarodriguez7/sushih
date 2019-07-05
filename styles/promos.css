@@ -74,7 +74,7 @@ header img{
     height: 110px;
     z-index: 2;
     order: 2;
-    margin: 0 50px;
+    margin: 0;
 }
 div .redes-menu{
     align-self: flex-end;
@@ -201,7 +201,13 @@ width:50px;
         display: flex;
         order: 3;
     }
+    .logo{
+        margin: 0;
+        margin-left: 20px;
+    }
+    .logo-menu{
 
+    }
     .menu-options div{
         border-bottom: 1px solid #000000;
         padding: 1.5rem 1rem;
