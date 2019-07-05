@@ -80,7 +80,7 @@ header img{
     height: 110px;
     z-index: 2;
     order: 2;
-    margin: 0;
+    margin: 0 50px;
 }
 div .redes-menu{
     align-self: flex-end;
@@ -328,6 +328,9 @@ width:50px;
     header{
         width: 100%;
         justify-content: space-around;
+    }
+    header img{
+        margin:0;
     }
     header .menu, header .menu2, header .redes-m{
         display: none;
