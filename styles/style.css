@@ -353,11 +353,15 @@ width:50px;
         min-height: 85px;
         width: 100%;
         align-items: center;
-        border-bottom: 1px solid #000;
+        border-top: 1px solid #000;
         /*flex*/
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
+    }
+    .menu-main:last-child{
+        border-bottom: 1px solid #000;
+        width: 100%;
     }
     .container-prod{
         display: flex;
