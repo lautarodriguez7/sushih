@@ -132,6 +132,8 @@ div .redes-menu{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: 500;
+    width: 70%;
+    font-size: 12px;
 }
 
 .form-contact{
