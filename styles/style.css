@@ -337,14 +337,17 @@ width:50px;
     }
     main .menu-first{
     display: flex;
-    flex-direction: row;
+    width: 100%;
 }
+    .menu-main{
+        flex-basis: 100%;
+    }
     main .order{
         display: none;
     }
     .menu-main{
         min-height: 85px;
-        width: auto;
+        width: 100%;
         align-items: center;
         border-bottom: 1px solid #000;
         /*flex*/
