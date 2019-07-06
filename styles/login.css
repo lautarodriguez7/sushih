@@ -12,24 +12,18 @@ body{
     justify-content: center;
     align-items: center;
 }
-body .container-login{
-    /*flex*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 45%;
-    margin:30px;
-}
 .login-box{
     background:#ff2a2a;
-    margin:0;
+    width: 500px;
+    height: 500px;
     /*flex*/
     display: flex;
     justify-content: center;
-    align-items: center;
-    }
-.login-top{
-    width: 100%;
-    height: 300px;;
 }
-.login-top
+.login-top{
+
+}
+.login-top img{
+    width: 100px;
+    height: auto;
+}
