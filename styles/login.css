@@ -14,14 +14,17 @@ body{
 }
 .login-box{
     background:#ff2a2a;
-    width: 500px;
+    width: 450px;
     height: 500px;
     /*flex*/
     display: flex;
-    justify-content: center;
 }
 .login-top{
-
+    width: 100%;
+    height: 120px;
+    /*flex*/
+    display: flex;
+    justify-content: center;
 }
 .login-top img{
     width: 100px;
