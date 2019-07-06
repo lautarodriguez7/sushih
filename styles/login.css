@@ -6,15 +6,19 @@
     text-transform: uppercase;
 }
 body{
-    background: #D0C1C1;
+    background: #D0C1C1
 }
-.log
 .container-login{
     /*flex*/
     display: flex;
     justify-content: center;
     align-items: center;
 }
-in-box{
+.login-box{
     background:#ff2a2a;
+    height: 500px;
+    width: 35%;
+    margin:20px;
+    /*flex*/
+    display: flex;
 }
