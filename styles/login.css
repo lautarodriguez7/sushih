@@ -5,7 +5,16 @@
     font-family: Montserrat,sans-serif;
     text-transform: uppercase;
 }
-
 body{
-    background:#F91212;
+    background: #D0C1C1;
+}
+.log
+.container-login{
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+in-box{
+    background:#ff2a2a;
 }
