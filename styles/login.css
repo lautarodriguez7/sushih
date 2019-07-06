@@ -5,6 +5,13 @@
     font-family: Montserrat,sans-serif;
     text-transform: uppercase;
 }
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 body{
     background: #D0C1C1;
     margin:50px;
@@ -26,7 +33,9 @@ body{
     /*flex*/
     display: flex;
     justify-content: space-evenly;
-    margin-left: 90px;}
+    margin-left: 90px;
+    margin-bottom:20px;
+}
 .login-top img{
     width: 100px;
     height: auto;
@@ -35,6 +44,7 @@ body{
     display: flex;
     justify-content: flex-end;  
     margin:15px;
+    margin-right: 0;
 }
 .cancel a{
     text-decoration: none;
