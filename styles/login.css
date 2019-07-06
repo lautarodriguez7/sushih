@@ -30,3 +30,12 @@ body{
     width: 100px;
     height: auto;
 }
+.cancel{
+    margin:15px;
+}
+.cancel a{
+    text-decoration: none;
+    font-size:25px;
+    font-weight: 100;
+    color: #000000;
+}
