@@ -12,14 +12,14 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-body{
+body {
     background: #D0C1C1;
     margin:50px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.login-box{
+.login-box {
     background:#ff2a2a;
     width: 450px;
     height: 500px;
@@ -27,7 +27,7 @@ body{
     display: flex;
     flex-direction: column;
 }
-.login-top{
+.login-top {
     width: 100%;
     height: 120px;
     /*flex*/
@@ -36,23 +36,23 @@ body{
     margin-left: 90px;
     margin-bottom:20px;
 }
-.login-top img{
+.login-top img {
     width: 100px;
     height: auto;
 }
-.cancel{
+.cancel {
     display: flex;
     justify-content: flex-end;  
     margin:15px;
     margin-right: 0;
 }
-.cancel a{
+.cancel a {
     text-decoration: none;
     font-size:25px;
     font-weight: 100;
     color: #000000;
 }
-.login-form{
+.login-form {
     display: flex;
     flex-direction: column;
 }
