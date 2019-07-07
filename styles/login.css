@@ -72,7 +72,9 @@ body {
     width: 90%; 
     background:none;
     border-color: #fff;
-    color: #fff   
+    color: #fff;
+    text-transform: none;
+   
 }
 span {
     font-size: 10px;
