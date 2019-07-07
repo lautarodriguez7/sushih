@@ -78,13 +78,14 @@ body {
 span {
     font-size: 10px;
     font-weight: 700;
+    margin-top: 5px;
 }
 .login-button {
      height: 45px;
-     width: 35%;
+     width: 30%;
      font-size: 12px;
      font-weight: 550;
-     margin:10px;
+     margin:15px;
      padding: 0px;
      background: #D0C1C1;
      cursor: pointer;
