@@ -68,7 +68,7 @@ body {
     border-bottom: 2px solid #000;
     padding: 4px;
     width: 90%; 
-    background:#D0C1C1;   
+    background:none;   
 }
 span {
     font-size: 10px;
