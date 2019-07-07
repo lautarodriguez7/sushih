@@ -63,4 +63,5 @@ body {
 }
 .container-input input {
     border-bottom: 2px solid #000;
+    margin: 30px;    
 }
