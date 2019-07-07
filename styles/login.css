@@ -60,8 +60,12 @@ body {
     /*flex*/
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 .container-input input {
     border-bottom: 2px solid #000;
-    margin: 30px;    
+    padding: 3px;
+    width: 90%;    
 }
