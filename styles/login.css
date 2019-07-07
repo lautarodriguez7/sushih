@@ -66,6 +66,11 @@ body {
 }
 .container-input input {
     border-bottom: 2px solid #000;
-    padding: 3px;
-    width: 90%;    
+    padding: 4px;
+    width: 90%; 
+    background:#D0C1C1;   
+}
+span {
+    font-size: 10px;
+    font-weight: 700;
 }
