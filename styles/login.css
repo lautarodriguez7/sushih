@@ -33,7 +33,7 @@ body {
     /*flex*/
     display: flex;
     justify-content: space-evenly;
-    margin-left: 90px;
+    margin-left: 50px;
     margin-bottom:20px;
 }
 .login-top img {
@@ -44,7 +44,6 @@ body {
     display: flex;
     justify-content: flex-end;  
     margin:15px;
-    margin-right: 0;
 }
 .cancel a {
     text-decoration: none;
@@ -62,6 +61,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 12px;
 
 }
 .container-input input {
