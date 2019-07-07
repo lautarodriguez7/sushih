@@ -54,6 +54,7 @@ body {
 .login-form {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .container-input {
     /*flex*/
