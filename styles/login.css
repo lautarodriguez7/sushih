@@ -65,10 +65,13 @@ body {
 
 }
 .container-input input {
-    border-bottom: 2px solid #000;
+    border-width: 0 0 2px;
+    border-radius: 5%;
     padding: 4px;
     width: 90%; 
-    background:none;   
+    background:none;
+    border-color: #fff;
+    color: #fff   
 }
 span {
     font-size: 10px;
