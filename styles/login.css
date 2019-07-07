@@ -23,6 +23,7 @@ body {
     background:#ff2a2a;
     width: 350px;
     height: 500px;
+    border-radius: 5%;
     /*flex*/
     display: flex;
     flex-direction: column;
