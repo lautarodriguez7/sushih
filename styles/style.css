@@ -362,10 +362,7 @@ width:50px;
         flex-direction: row;
         justify-content: flex-start;
     }
-    .menu-main:last-child{
-        border-bottom: 1px solid #000;
-        width: 100%;
-    }
+
     .container-prod{
         display: flex;
         position: relative;
