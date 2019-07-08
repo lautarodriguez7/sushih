@@ -108,4 +108,6 @@ span {
 }
 
 .account a:first-child {
+    font-size:14px;
+    font-weight: 550;
 }
