@@ -337,8 +337,10 @@ width:50px;
         display: none;
     }
     main .menu-first, main .container-prod{
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
+        justify-content: center;
+
     }
     main .menu-first{
     display: flex;
