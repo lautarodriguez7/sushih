@@ -74,7 +74,7 @@ body {
     border-color: #fff;
     color: #fff;
     text-transform: none;
-   
+    outline: 0;
 }
 span {
     font-size: 10px;
