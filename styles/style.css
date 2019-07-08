@@ -97,10 +97,11 @@ div .redes-menu{
     margin: 0;
 }
 .main{
-    padding: 0 10rem;
+    margin-bottom: 80px;
+    /*flex*/
     display: flex;
     flex-direction: column;
-    margin-bottom: 80px;
+    align-items: center;
 }
 .p-main{
     font-size: 15px;
