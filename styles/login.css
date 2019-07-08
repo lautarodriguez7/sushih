@@ -106,3 +106,6 @@ span {
 .account a:hover {
     color:#990000;
 }
+
+.account a:first-child {
+}
