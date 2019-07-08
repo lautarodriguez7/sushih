@@ -91,3 +91,9 @@ span {
      background: #D0C1C1;
      cursor: pointer;
 }
+.account {
+    /*flex*/
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
