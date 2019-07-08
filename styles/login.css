@@ -103,3 +103,6 @@ span {
     color:#fff;
     font-size:12px;
 }
+.account a:hover {
+    color:#990000;
+}
