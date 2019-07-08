@@ -97,3 +97,9 @@ span {
     flex-direction: column;
     align-items: center;
 }
+.account a{
+    margin-top:25px;
+    text-decoration: none;
+    color:#fff;
+    font-size:12px;
+}
