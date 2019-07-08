@@ -243,21 +243,22 @@ width:50px;
         display: none;
     }
     .container-time{
-        width: 100%;
-        /*flex*/
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+    width: 100%;
+    /*flex*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     }
     .map, .container-horario{
-        width: 80%;
+        width: 85%;
         height: auto;
         margin:0;        
     }
     .map{
         order:2;
         margin-top:20px;
+        margin-bottom:20px;
     }
     .container-horario{
         order:1;
