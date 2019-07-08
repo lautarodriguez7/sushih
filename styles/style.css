@@ -356,7 +356,7 @@ width:50px;
         min-height: 85px;
         width: 100%;
         align-items: center;
-        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
         /*flex*/
         display: flex;
         flex-direction: row;
