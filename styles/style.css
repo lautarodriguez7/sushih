@@ -361,6 +361,9 @@ width:50px;
         justify-content: center;
     }
 
+    .menu-main img {
+        margin-right: 20px;
+    }
     .container-prod{
         display: flex;
         position: relative;
