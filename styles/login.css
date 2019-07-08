@@ -45,6 +45,7 @@ body {
     display: flex;
     justify-content: flex-end;  
     margin:15px;
+    margin-right: 0;
 }
 .cancel a {
     text-decoration: none;
