@@ -359,4 +359,7 @@ width:50px;
     .title-h3 img {
         display: none;
     }
+    .form-data {
+        width: 75%;
+    }
 }
