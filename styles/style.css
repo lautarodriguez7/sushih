@@ -353,7 +353,7 @@ width:50px;
         display: none;
     }
     .menu-main{
-        min-height: 120px;
+        min-height: 80px;
         align-items: center;
         border-bottom: 1px solid #000;
         display: flex;
