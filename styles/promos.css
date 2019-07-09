@@ -238,4 +238,7 @@ width:50px;
     .p-title{
         margin-bottom: 10px;
     }
+    .sub-title {
+        border:0;
+    }
 }
