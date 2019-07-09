@@ -274,6 +274,11 @@ width:50px;
         display: flex;
         order: 3;
     }
+    .icon-menu img {
+        width: 30px;
+        height:auto;
+        align-self: flex-end;
+    }
     .logo{
         margin: 0;
     }
