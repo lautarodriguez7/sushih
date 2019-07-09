@@ -382,11 +382,9 @@ width:50px;
         order: 3;
     }
     .icon-menu img {
-        display: flex;
-        justify-content: flex-end;
-        align-content: flex-end;
         width: 30px;
         height:auto;
+        align-self: flex-end;
     }
     .logo{
         margin:0;
