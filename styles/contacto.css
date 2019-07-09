@@ -341,5 +341,22 @@ width:50px;
     }
 }
 @media screen and (max-width: 550px) {
-    
+    .main {
+        padding: 0;
+    }
+    .title-main {
+        width: 100%;
+        height: auto;
+    }
+    .title-h3 h3{
+        padding-top:0;
+        padding-bottom:10px;
+    }
+    .title-h3 p {
+        margin-top:5px;
+        width:100%;
+    }
+    .title-h3 img {
+        display: none;
+    }
 }
