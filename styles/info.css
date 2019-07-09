@@ -242,6 +242,9 @@ width:50px;
     header .menu, header .menu2, header .redes-m{
         display: none;
     }
+    .title-main {
+        width: 90%;
+    }
     .container-time{
     width: 100%;
     /*flex*/
