@@ -381,6 +381,13 @@ width:50px;
         display: flex;
         order: 3;
     }
+    .icon-menu img {
+        display: flex;
+        justify-content: flex-end;
+        align-content: flex-end;
+        width: 30px;
+        height:auto;
+    }
     .logo{
         margin:0;
     }
