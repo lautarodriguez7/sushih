@@ -205,7 +205,7 @@ width:50px;
 }
 .title-left{
     color:#fff;
-    margin-left: 20%;
+    margin-left: 10%;
 
 }
 .title-left h3, .title-right h3{
@@ -216,7 +216,7 @@ width:50px;
 }
 .title-right{
     color: rgb(163, 163, 163);
-    margin-right: 20%;
+    margin-right: 10%;
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
