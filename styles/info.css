@@ -293,4 +293,7 @@ width:50px;
         padding: 0;
         margin-bottom:0px;
     }
+    .title-right, .title-left {
+        margin:0;
+    }
 }
