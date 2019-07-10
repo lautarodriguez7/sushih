@@ -258,12 +258,12 @@ width:50px;
     .map, .container-horario{
         width: 85%;
         height: auto;
-        margin:0;        
+        margin-left:10px;        
     }
     .map{
         order:2;
         margin-top:20px;
-        margin-bottom:20px;
+        margin-bottom:80px;
     }
     .container-horario{
         order:1;
