@@ -155,7 +155,7 @@ width:50px;
 }
 .title-left{
     color:#fff;
-    margin-left: 5%;
+    margin-left: 10%;
 
 }
 .title-left h3, .title-right h3{
@@ -166,7 +166,7 @@ width:50px;
 }
 .title-right{
     color: rgb(163, 163, 163);
-    margin-right: 5%;
+    margin-right: 10%;
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
@@ -224,6 +224,7 @@ width:50px;
         display: flex;
         flex-direction: column; 
     }
+    
 }
 
 @media screen and (max-width: 650px){
@@ -254,5 +255,7 @@ width:50px;
         height: auto;
         margin-top: 100px;
     }
-    
+    .title-right, .title-left {
+        margin:0;
+    }
 }
