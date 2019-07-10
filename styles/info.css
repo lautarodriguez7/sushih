@@ -276,9 +276,10 @@ width:50px;
     }
 
     .icon-menu img {
-        width: 30px;
+        width: 40px;
         height:auto;
         align-self: flex-end;
+        margin-right: 10px;
     }
 
     .logo{
