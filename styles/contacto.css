@@ -353,6 +353,11 @@ width:50px;
     .logo-menu{
         margin-right: -70px;
     }
+    .contact-title img {
+        width: 65px;
+        height: auto;
+        margin:0;
+    }
 }
 @media screen and (max-width: 550px) {
     .icon-menu img {
