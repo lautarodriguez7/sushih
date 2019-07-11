@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("#entradas").click(function(){
-      $("#container").toggle("slow");
+    $('#entradas').click(function(){
+      $('#container').toggle('slow');
     });
   });
