@@ -167,6 +167,11 @@ div .redes-menu{
     display: flex;
     flex-wrap: wrap;
 }
+
+.not-container {
+    display: none;
+}
+
 .single-prod{  
     position: relative;
     width: 250px;
