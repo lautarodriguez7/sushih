@@ -64,5 +64,9 @@ $(document).ready(function(){
     $('#drinks').click(function(){
       $('.menu-main').removeClass('first');   
       $('#drinks').addClass('first');
+      $('.container-prod').hide();
+      $('#drinks2').addClass('container-prod');
+      $('#drinks2').removeClass('not-container'); 
+      $('#drinks2').fadeIn(2000);
     });
   });
