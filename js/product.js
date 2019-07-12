@@ -46,6 +46,7 @@ $(document).ready(function(){
     $('#salads').click(function(){
       $('.menu-main').removeClass('first');   
       $('#salads').addClass('first');
+      $('.container-prod').hide();
       $('#salads2').addClass('container-prod');
       $('#salads2').removeClass('not-container'); 
       $('#salads2').fadeIn(2000);
