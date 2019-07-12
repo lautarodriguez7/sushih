@@ -34,4 +34,9 @@ $(document).ready(function(){
       $('.menu-main').removeClass('first');   
       $('#adicionals').addClass('first');
     });
+
+    $('#drinks').click(function(){
+      $('.menu-main').removeClass('first');   
+      $('#drinks').addClass('first');
+    });
   });
