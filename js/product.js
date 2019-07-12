@@ -55,6 +55,10 @@ $(document).ready(function(){
     $('#adicionals').click(function(){
       $('.menu-main').removeClass('first');   
       $('#adicionals').addClass('first');
+      $('.container-prod').hide();
+      $('#adicionals2').addClass('container-prod');
+      $('#adicionals2').removeClass('not-container'); 
+      $('#adicionals2').fadeIn(2000);
     });
 
     $('#drinks').click(function(){
