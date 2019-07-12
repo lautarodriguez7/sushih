@@ -7,8 +7,10 @@ $(document).ready(function(){
     });
 
     $('#combinados').click(function(){
-      $('.menu-main').removeClass('first');   
+      $('.menu-main').removeClass('first');     
       $('#combinados').addClass('first');
+      $('.container-prod').hide();
+      $('#combinados2').slideDown("slow");
     });
 
     $('#rolls').click(function(){
