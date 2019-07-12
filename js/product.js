@@ -19,6 +19,10 @@ $(document).ready(function(){
     $('#rolls').click(function(){
       $('.menu-main').removeClass('first');   
       $('#rolls').addClass('first');
+      $('.container-prod').hide();
+      $('#rolls2').addClass('container-prod');
+      $('#rolls2').removeClass('not-container'); 
+      $('#rolls2').fadeIn(2000);
     });
 
     $('#niguiris').click(function(){
