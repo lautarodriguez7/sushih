@@ -29,9 +29,9 @@ $(document).ready(function(){
       $('.menu-main').removeClass('first');   
       $('#niguiris').addClass('first');
       $('.container-prod').hide();
-      $('#').addClass('container-prod');
-      $('#').removeClass('not-container'); 
-      $('#').fadeIn(2000);
+      $('#niguiris2').addClass('container-prod');
+      $('#niguiris2').removeClass('not-container'); 
+      $('#niguiris2').fadeIn(2000);
     });
 
     $('#teiwoks').click(function(){
