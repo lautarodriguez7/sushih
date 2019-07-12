@@ -29,4 +29,9 @@ $(document).ready(function(){
       $('.menu-main').removeClass('first');   
       $('#salads').addClass('first');
     });
+
+    $('#adicionals').click(function(){
+      $('.menu-main').removeClass('first');   
+      $('#adicionals').addClass('first');
+    });
   });
