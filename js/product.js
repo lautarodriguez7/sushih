@@ -46,6 +46,9 @@ $(document).ready(function(){
     $('#salads').click(function(){
       $('.menu-main').removeClass('first');   
       $('#salads').addClass('first');
+      $('#salads2').addClass('container-prod');
+      $('#salads2').removeClass('not-container'); 
+      $('#salads2').fadeIn(2000);
     });
 
     $('#adicionals').click(function(){
