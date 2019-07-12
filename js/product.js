@@ -19,4 +19,9 @@ $(document).ready(function(){
       $('.menu-main').removeClass('first');   
       $('#niguiris').addClass('first');
     });
+
+    $('#teiwoks').click(function(){
+      $('.menu-main').removeClass('first');   
+      $('#teiwoks').addClass('first');
+    });
   });
