@@ -37,6 +37,10 @@ $(document).ready(function(){
     $('#teiwoks').click(function(){
       $('.menu-main').removeClass('first');   
       $('#teiwoks').addClass('first');
+      $('.container-prod').hide();
+      $('#teiwoks2').addClass('container-prod');
+      $('#teiwoks2').removeClass('not-container'); 
+      $('#teiwoks2').fadeIn(2000);
     });
 
     $('#salads').click(function(){
