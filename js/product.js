@@ -5,6 +5,7 @@ $(document).ready(function(){
     });
 
     $('#combinados').click(function(){
-        $('#combinados').addClass('first');
+      $('.menu-main').removeClass('first');   
+      $('#combinados').addClass('first');
     });
   });
