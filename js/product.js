@@ -28,6 +28,10 @@ $(document).ready(function(){
     $('#niguiris').click(function(){
       $('.menu-main').removeClass('first');   
       $('#niguiris').addClass('first');
+      $('.container-prod').hide();
+      $('#rolls2').addClass('container-prod');
+      $('#rolls2').removeClass('not-container'); 
+      $('#rolls2').fadeIn(2000);
     });
 
     $('#teiwoks').click(function(){
