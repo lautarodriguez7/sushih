@@ -24,4 +24,9 @@ $(document).ready(function(){
       $('.menu-main').removeClass('first');   
       $('#teiwoks').addClass('first');
     });
+
+    $('#salads').click(function(){
+      $('.menu-main').removeClass('first');   
+      $('#salads').addClass('first');
+    });
   });
