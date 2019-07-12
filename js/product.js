@@ -9,4 +9,8 @@ $(document).ready(function(){
       $('.menu-main').removeClass('first');   
       $('#combinados').addClass('first');
     });
+    $('#rolls').click(function(){
+      $('.menu-main').removeClass('first');   
+      $('#rolls').addClass('first');
+    });
   });
