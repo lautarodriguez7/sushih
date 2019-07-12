@@ -10,7 +10,9 @@ $(document).ready(function(){
       $('.menu-main').removeClass('first');     
       $('#combinados').addClass('first');
       $('.container-prod').hide();
-      $('#combinados2').slideDown("slow");
+      $('#combinados2').addClass('container-prod');
+      $('#combinados2').removeClass('not-container'); 
+      $('#combinados2').fadeIn(2000);
     });
 
     $('#rolls').click(function(){
