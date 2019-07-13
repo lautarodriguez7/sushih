@@ -398,6 +398,7 @@ width:50px;
 
     .menu-main {
         flex-basis: 100%;
+        border-bottom: 2px solid #000;
     }
 
     main .order {
