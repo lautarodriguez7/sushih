@@ -20,7 +20,7 @@ $(document).ready(function(){
       $('.container-prod').hide();
       $('#rolls2').addClass('container-prod');
       $('#rolls2').removeClass('not-container'); 
-      $('#rolls2').fadeIn(2000);
+      $('#rolls2').fadeIn(1000);
     });
 
     $('#niguiris').click(function(){
@@ -29,7 +29,7 @@ $(document).ready(function(){
       $('.container-prod').hide();
       $('#niguiris2').addClass('container-prod');
       $('#niguiris2').removeClass('not-container'); 
-      $('#niguiris2').fadeIn(2000);
+      $('#niguiris2').fadeIn(1000);
     });
 
     $('#teiwoks').click(function(){
