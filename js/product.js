@@ -2,7 +2,7 @@ $(document).ready(function(){
     
     $('#entradas').click(function(){
       $('.container-prod').hide();
-      $('#container').fadeIn(2000);
+      $('#container').fadeIn(1000);
     });
 
     $('#combinados').click(function(){
@@ -11,7 +11,7 @@ $(document).ready(function(){
       $('.container-prod').hide();
       $('#combinados2').addClass('container-prod');
       $('#combinados2').removeClass('not-container'); 
-      $('#combinados2').fadeIn(2000);
+      $('#combinados2').fadeIn(1000);
     });
 
     $('#rolls').click(function(){
