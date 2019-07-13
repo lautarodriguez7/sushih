@@ -455,3 +455,9 @@ width:50px;
         margin: 0;
     }
 }
+
+@media screen and (max-width: 550px) {
+    .container-prod {
+        display: none;
+    }
+}
