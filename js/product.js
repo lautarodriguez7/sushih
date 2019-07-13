@@ -38,7 +38,7 @@ $(document).ready(function(){
       $('.container-prod').hide();
       $('#teiwoks2').addClass('container-prod');
       $('#teiwoks2').removeClass('not-container'); 
-      $('#teiwoks2').fadeIn(2000);
+      $('#teiwoks2').fadeIn(1000);
     });
 
     $('#salads').click(function(){
@@ -47,7 +47,7 @@ $(document).ready(function(){
       $('.container-prod').hide();
       $('#salads2').addClass('container-prod');
       $('#salads2').removeClass('not-container'); 
-      $('#salads2').fadeIn(2000);
+      $('#salads2').fadeIn(1000);
     });
 
     $('#adicionals').click(function(){
