@@ -361,6 +361,9 @@ width:50px;
     .title-right, .title-left {
         margin:0;
     }
+    .redes-footer {
+        margin: 0;
+    }
 }
 @media screen and (max-width: 550px) {
     .icon-menu img {
@@ -389,8 +392,5 @@ width:50px;
     }
     .form-data {
         width: 75%;
-    }
-    .redes-footer {
-        margin: 0;
     }
 }
