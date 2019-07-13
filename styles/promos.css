@@ -224,7 +224,12 @@ width:50px;
         display: flex;
         flex-direction: column; 
     }
-    
+    .redes-footer {
+        margin: 0;
+    }
+    .title-right, .title-left {
+        margin:0;
+    }
 }
 
 @media screen and (max-width: 650px){
@@ -254,8 +259,5 @@ width:50px;
         width: 100%;
         height: auto;
         margin-top: 100px;
-    }
-    .title-right, .title-left {
-        margin:0;
     }
 }
