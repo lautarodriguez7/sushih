@@ -1,6 +1,8 @@
 $(document).ready(function(){
     
     $('#entradas').click(function(){
+      $('.menu-main').removeClass('first');     
+      $('#entradas').addClass('first');
       $('.container-prod').hide();
       $('#container').fadeIn(1000);
     });
