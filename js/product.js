@@ -56,7 +56,7 @@ $(document).ready(function(){
       $('.container-prod').hide();
       $('#adicionals2').addClass('container-prod');
       $('#adicionals2').removeClass('not-container'); 
-      $('#adicionals2').fadeIn(2000);
+      $('#adicionals2').fadeIn(1000);
     });
 
     $('#drinks').click(function(){
@@ -65,6 +65,6 @@ $(document).ready(function(){
       $('.container-prod').hide();
       $('#drinks2').addClass('container-prod');
       $('#drinks2').removeClass('not-container'); 
-      $('#drinks2').fadeIn(2000);
+      $('#drinks2').fadeIn(1000);
     });
   });
