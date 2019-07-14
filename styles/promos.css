@@ -136,6 +136,12 @@ div .redes-menu{
     font-size: 14px;
     margin: 0;
 }
+
+.img-promo {
+    display: flex;
+    justify-content: center;
+}
+
 .img-promo img {
     display: flex;
 }
