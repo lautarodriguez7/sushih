@@ -6,49 +6,56 @@
     text-transform: uppercase;
     background-color: #b92121;
 }
-div{
+
+div {
     display: block;
 }
-header{
+
+header {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.container-header img{
+
+.container-header img {
     width: 150px;
     margin-bottom:30px;
 }
-.container-main{
+
+.container-main {
     width: 100%;
     /*flex*/
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
-.menu div{
+
+.menu div {
     flex-direction: column;
     margin:25px;
 }
-.menu a{
+
+.menu a {
     text-decoration: none;
     color:#fff;
     font-size: 20px;
     margin-left:50px;
 }
-.menu a:hover{
+
+.menu a:hover {
     text-decoration: none;
     color:rgb(100, 2, 2);
     font-size:22px;
     margin-left: 60px;
 }
-.social{
+
+.social {
     display: flex;
     justify-content: center;
-
 }
-.social img{
+
+.social img {
     width: 40px;
     margin:10px;
 }
