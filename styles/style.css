@@ -455,6 +455,10 @@ width:50px;
     .redes-footer {
         margin: 0;
     }
+
+    .first {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 550px) {
