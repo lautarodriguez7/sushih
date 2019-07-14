@@ -136,6 +136,9 @@ div .redes-menu{
     font-size: 14px;
     margin: 0;
 }
+.img-promo img {
+    display: flex;
+}
 footer{
     background-color: #1f1f1c;
     bottom: 0;
