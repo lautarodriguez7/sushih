@@ -1,13 +1,13 @@
 $(document).ready(function(){
     
-    $('#entradas').click(function(){
+    $('#entradas').click(function() {
       $('.menu-main').removeClass('first');     
       $('#entradas').addClass('first');
       $('.container-prod').hide();
       $('#container').fadeIn(1000);
     });
 
-    $('#combinados').click(function(){
+    $('#combinados').click(function() {
       $('.menu-main').removeClass('first');     
       $('#combinados').addClass('first');
       $('.container-prod').hide();
@@ -16,7 +16,7 @@ $(document).ready(function(){
       $('#combinados2').fadeIn(1000);
     });
 
-    $('#rolls').click(function(){
+    $('#rolls').click(function() {
       $('.menu-main').removeClass('first');   
       $('#rolls').addClass('first');
       $('.container-prod').hide();
@@ -25,7 +25,7 @@ $(document).ready(function(){
       $('#rolls2').fadeIn(1000);
     });
 
-    $('#niguiris').click(function(){
+    $('#niguiris').click(function() {
       $('.menu-main').removeClass('first');   
       $('#niguiris').addClass('first');
       $('.container-prod').hide();
@@ -34,7 +34,7 @@ $(document).ready(function(){
       $('#niguiris2').fadeIn(1000);
     });
 
-    $('#teiwoks').click(function(){
+    $('#teiwoks').click(function() {
       $('.menu-main').removeClass('first');   
       $('#teiwoks').addClass('first');
       $('.container-prod').hide();
@@ -43,7 +43,7 @@ $(document).ready(function(){
       $('#teiwoks2').fadeIn(1000);
     });
 
-    $('#salads').click(function(){
+    $('#salads').click(function() {
       $('.menu-main').removeClass('first');   
       $('#salads').addClass('first');
       $('.container-prod').hide();
@@ -52,7 +52,7 @@ $(document).ready(function(){
       $('#salads2').fadeIn(1000);
     });
 
-    $('#adicionals').click(function(){
+    $('#adicionals').click(function() {
       $('.menu-main').removeClass('first');   
       $('#adicionals').addClass('first');
       $('.container-prod').hide();
@@ -61,7 +61,7 @@ $(document).ready(function(){
       $('#adicionals2').fadeIn(1000);
     });
 
-    $('#drinks').click(function(){
+    $('#drinks').click(function() {
       $('.menu-main').removeClass('first');   
       $('#drinks').addClass('first');
       $('.container-prod').hide();
