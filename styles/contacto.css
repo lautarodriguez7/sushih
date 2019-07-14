@@ -5,10 +5,12 @@
     font-family: Montserrat,sans-serif;
     text-transform: uppercase;
 }
-div{
+
+div {
     display: block;
 }
-button{
+
+button {
     -webkit-appearance: button;
     text-rendering: auto;
     color: buttontext;
@@ -31,7 +33,8 @@ button{
     border-color: buttonface;
     border-image: initial;
 }
-header{
+
+header {
     background-color: #b92121;
     padding: .5rem 5rem .5rem 9rem;
     height: 85px;
@@ -41,7 +44,7 @@ header{
     align-items: center
 }
 
-.menu{
+.menu {
     align-self: flex-end;
     color: #ffff;
     font-size: 14px;
@@ -52,7 +55,8 @@ header{
     margin: 0 10px;
     order:1
 }
-.menu2{
+
+.menu2 {
     align-self: flex-end;
     color: #ffff;
     font-size: 14px;
@@ -63,20 +67,23 @@ header{
     margin: 0 10px;
     order:3
 }
-.logo-menu{
+
+.logo-menu {
     order:1;
     margin-top:60px;
     margin-left:-20px;
     width: 100px;
 }
-header img{
+
+header img {
     width: 90px;
     height: 110px;
     z-index: 2;
     order: 2;
     margin: 0 50px;
 }
-div .redes-menu{
+
+div .redes-menu {
     align-self: flex-end;
     padding: 0px;
     margin:0;
@@ -84,34 +91,40 @@ div .redes-menu{
     height: auto;
     align-items: flex-end
 }
-.redes-m{
+
+.redes-m {
     order: 3;
     align-self: flex-end;
     padding: 0;
     margin: 0;
 }
-.icon-menu{   
+
+.icon-menu {   
     display: none;
 }
-.icon-menu img{
+
+.icon-menu img {
     width: 30px;
     height: auto;
 }
-.main{
+
+.main {
     display: flex;
     flex-direction: column;
     padding: 0 9rem;
     margin-bottom: 120px;
     width: 100%;
 }
-.title-main{
+
+.title-main {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 20px 0;
     padding: 30px 0;
 }
-.title-h3{
+
+.title-h3 {
     font-size:15px;
     width: 100%;
     /*flex*/
@@ -119,14 +132,16 @@ div .redes-menu{
     flex-direction: column;
     justify-content: space-between;
 }
-.title-h3 h3{
+
+.title-h3 h3 {
     border-bottom: 3px solid #000;
     padding-bottom: 30px;
     padding-top:20px;
     width: 99%;
     font-weight: 600;
 }
-.title-h3 p{
+
+.title-h3 p {
     display: flex;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -136,31 +151,35 @@ div .redes-menu{
     width: 70%;
     font-size: 12px;
 }
-.title-sec{
+
+.title-sec {
     width: 100%;
     /*flex*/
     display: flex;
     justify-content: space-between;
 }
-.title-h3 img{
+
+.title-h3 img {
     width: 70px;
     position: relative;
     top:-35px;
 }
 
-.form-contact{
+.form-contact {
     padding: 0 1rem;
     /*flex*/
     display: flex;
     justify-content: center;
 }
-.form-data p{
+
+.form-data p {
     margin: 0;
     padding: 10px 0;
     font-size: 13px;
     font-weight: 700;
 }
-input, .msj-txt{
+
+input, .msj-txt {
     margin-bottom: 6px;
     height: 30px;
     padding: 5px;
@@ -168,29 +187,34 @@ input, .msj-txt{
     outline: none;
     box-shadow: inset 0 1px 8px rgba(0,0,0,.2);
 }
-.form-msj, .form-data{
+
+.form-msj, .form-data {
     width: 100%;
     /*flex*/
     display: flex;
     flex-direction: column;
     flex-grow: 1;
 }
-.form-data{
+
+.form-data {
     width: 70%;
     padding-right: 10px;
 }
-.form-msj p{
+
+.form-msj p {
     margin: 0;
     padding: 10px 0;
     font-size: 13px;
     font-weight: 700;
 }
-.form-msj textarea{
+
+.form-msj textarea {
     height: 170px;
     margin-bottom: 10px;
     resize: none;
 }
-.submit{
+
+.submit {
     background: #e2132c;
     color: #fff;
     border: none;
@@ -202,39 +226,46 @@ input, .msj-txt{
     outline: none;
     cursor: pointer;
 }
-.contact{
+
+.contact {
     display: flex;
     flex-direction: column;
 }
-.contact-title{
+
+.contact-title {
     border-bottom: 2px solid #000;
     /*flex*/
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
 }
-.contact-title h3{
+
+.contact-title h3 {
     padding-bottom: 35px;
     font-weight: 600;
 }
 
-.contact-title img{
+.contact-title img {
     width: 65px;
     margin-left:240px;
 }  
-.contact .moshi{
+
+.contact .moshi { 
     display: flex;
     position: relative;
-    }
-.contact-p{
+}
+
+.contact-p {
     width: 58%;
     margin:10px;
     margin-left: 0;
 } 
-.contact-p p{
+
+.contact-p p {
     font-size: 12px;
 }
-footer{
+
+footer {
     background-color: #1f1f1c;
     bottom: 0;
     width: 100%;
@@ -248,21 +279,24 @@ footer{
     display: flex;
     justify-content: space-between;
 }
-footer div img{
+
+footer div img {
 width:50px;
 }
-.title-left{
+
+.title-left {
     color:#fff;
     margin-left: 10%;
-
 }
-.title-left h3, .title-right h3{
+
+.title-left h3, .title-right h3 { 
     margin: 0;
     color: rgb(163, 163, 163);
     font-size: 15px;
     font-weight: 750;
 }
-.title-right{
+
+.title-right {
     color: rgb(163, 163, 163);
     margin-right: 10%;
     /*flex*/
@@ -272,45 +306,50 @@ width:50px;
     align-items:center; 
 }
 
-.redes-footer{
+.redes-footer {
     display: flex;
     margin: 10px;
 }
-.redes-footer img{
+
+.redes-footer img {
     width:30px;
     padding:1px;
 }
 
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 1300px) {
     .contact-title img{
     width: 65px;
     margin-left: 0;   
     }  
 }
 
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1100px) {
      .contact-p{
          width: 100%;
      }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
     header{
         justify-content: space-between;
         width: 100%;
         padding:0;
     }
-    header img{
+
+    header img {
         margin:0;
     }
-    header .menu, header .menu2, header .redes-m{
+
+    header .menu, header .menu2, header .redes-m {
         display: none;
     }
-    .form-contact , .contact, .contact-title, .contact-p .form-data, .form-msj{
+
+    .form-contact , .contact, .contact-title, .contact-p .form-data, .form-msj {
         align-items: flex-start;
         align-self: flex-start;
         width: 100%;
     }
+
     .form-contact {
         flex-direction: column;
     }
@@ -333,7 +372,7 @@ width:50px;
         margin: 0;   
      } 
 
-    .icon-menu{
+    .icon-menu {
         margin:0;
         /*flex*/
         display: flex;
@@ -346,11 +385,11 @@ width:50px;
         align-self: flex-end;
     }
 
-    .logo{
+    .logo {
         margin:0;
     }
 
-    .logo-menu{
+    .logo-menu {
         margin-right: -70px;
     }
     .contact-title img {
@@ -379,7 +418,7 @@ width:50px;
         width: 100%;
         height: auto;
     }
-    .title-h3 h3{
+    .title-h3 h3 {
         padding-top:0;
         padding-bottom:10px;
     }
