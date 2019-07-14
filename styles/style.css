@@ -268,8 +268,8 @@ p, h3 {
     border: 1px solid #909090;
     background: #fff;
 }
-
-.order{
+ 
+.order {
     width: 28%;
     max-width: 600px;
     margin-top: 35px;
@@ -279,20 +279,20 @@ p, h3 {
     flex-direction: column;
 }
 
-.head-order{
+.head-order {
     display: flex;
     position: relative;
     align-items: center;
 }
 
-.head-order img{
+.head-order img {
     width:60px;
     position: absolute;
     left:230px;
     top:-24px;
 }
 
-.head-order p{
+.head-order p {
     background: #b92121;
     color:#fff;
     margin:0;
@@ -302,7 +302,7 @@ p, h3 {
     font-weight: 550;
 }
 
-.body-order{
+.body-order {
     border-bottom: 2px solid #b92121;
     padding-bottom: 5px;
     height: 100px;
@@ -311,7 +311,7 @@ p, h3 {
     align-items: center;
 }
 
-.body-order a{
+.body-order a {
     text-decoration: none;
     color:#fff;
     background: #ad0909;
@@ -320,7 +320,7 @@ p, h3 {
     outline: none;
 }
 
-footer{
+footer {
     background-color: #1f1f1c;
     bottom: 0;
     width: 100%;
@@ -335,7 +335,7 @@ footer{
     justify-content: space-between;
 }
 
-footer div img{
+footer div img {
 width:50px;
 }
 
@@ -344,14 +344,14 @@ width:50px;
     margin-left: 10%;
 }
 
-.title-left h3, .title-right h3{
+.title-left h3, .title-right h3 {
     margin: 0;
     color: rgb(163, 163, 163);
     font-size: 15px;
     font-weight: 750;
 }
 
-.title-right{
+.title-right {
     color: rgb(163, 163, 163);
     margin-right: 10%;
     display: flex;
@@ -360,32 +360,33 @@ width:50px;
     align-items:center; 
 }
 
-.redes-footer{
+.redes-footer {
     display: flex;
     margin: 10px;
 }
 
-.redes-footer img{
+.redes-footer img {
     width:30px;
     padding: 1px;
 }
 
-@media screen and (max-width: 800px){
-    header{
+@media screen and (max-width: 800px) {
+
+    header {
         width: 100%;
         justify-content: space-between;
         padding:0;
     }
 
-    header img{
+    header img {
         margin:0;
     }
 
-    header .menu, header .menu2, header .redes-m{
+    header .menu, header .menu2, header .redes-m {
         display: none;
     }
 
-    main .menu-first, main .container-prod{
+    main .menu-first, main .container-prod {
         flex-direction: row;
         align-items: center;
         justify-content: center;
@@ -405,7 +406,7 @@ width:50px;
         display: none;
     }
 
-    .menu-main{
+    .menu-main {
         min-height: 80px;
         align-items: center;
         border-bottom: 1px solid #000;
@@ -418,7 +419,7 @@ width:50px;
         margin-right: 20px;
     }
 
-    .container-prod{
+    .container-prod {
         display: flex;
         position: relative;
         flex-direction: column;
@@ -428,7 +429,7 @@ width:50px;
         align-items: center;
     }
 
-    .icon-menu{
+    .icon-menu {
         margin:0;
         /*flex*/
         display: flex;
@@ -442,11 +443,11 @@ width:50px;
         margin-right: 10px;
     }
 
-    .logo{
+    .logo {
         margin:0;
     }
 
-    .logo-menu{
+    .logo-menu {
         margin-right: -70px;
     }
     .title-right, .title-left {
