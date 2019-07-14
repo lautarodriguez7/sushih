@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin:0;
     box-sizing: border-box;
@@ -6,11 +6,11 @@
     text-transform: uppercase;
 }
 
-div{
+div 
     display: block;
 }
 
-button{
+button {
     -webkit-appearance: button;
     text-rendering: auto;
     color: buttontext;
@@ -34,7 +34,7 @@ button{
     border-image: initial;
 }
 
-header{
+header {
     background-color: #b92121;
     padding: .5rem 5rem .5rem 9rem;
     height: 85px;
@@ -44,16 +44,16 @@ header{
     align-items: center
 }
 
-.icon-menu{   
+.icon-menu {   
     display: none;
 }
 
-.icon-menu img{
+.icon-menu img {
     width: 30px;
     height: auto;
 }
 
-.menu{
+.menu {
     align-self: flex-end;
     color: #ffff;
     font-size: 14px;
@@ -65,7 +65,7 @@ header{
     order:1
 }
 
-.menu2{
+.menu2 {
     align-self: flex-end;
     color: #ffff;
     font-size: 14px;
@@ -77,14 +77,14 @@ header{
     order:3
 }
 
-.logo-menu{
+.logo-menu {
     order:1;
     margin-top:60px;
     margin-left:-20px;
     width: 100px;
 }
 
-header img{
+header img {
     width: 90px;
     height: 110px;
     z-index: 2;
@@ -92,7 +92,7 @@ header img{
     margin: 0 50px;
 }
 
-div .redes-menu{
+div .redes-menu {
     align-self: flex-end;
     padding: 0px;
     margin:0;
@@ -101,14 +101,14 @@ div .redes-menu{
     align-items: flex-end
 }
 
-.redes-m{
+.redes-m {
     order: 3;
     align-self: flex-end;
     padding: 0;
     margin: 0;
 }
 
-.main{
+.main {
     margin-bottom: 80px;
     /*flex*/
     display: flex;
@@ -116,7 +116,7 @@ div .redes-menu{
     align-items: center;
 }
 
-.p-main{
+.p-main {
     font-size: 15px;
     text-align: center;
     margin: 10px 0 0;
@@ -125,7 +125,7 @@ div .redes-menu{
     color: #000;
 }
 
-.menu-main{
+.menu-main {
     align-items: center;
     width: 100px;
     margin: 0 10px;
@@ -136,18 +136,18 @@ div .redes-menu{
     justify-content: center;
 }
 
-.menu-main img{
+.menu-main img {
     width: 50px;
     height: 50px
 }
 
-.first{
+.first {
     color: #000;
     font-weight: 700;
     text-shadow: 1px 0 #000;
 }
 
-.menu-first{
+.menu-first {
     margin: 50px 0 20px;
     /*flex*/
     display: flex;
@@ -155,12 +155,12 @@ div .redes-menu{
     flex-wrap: wrap;
 }
 
-.content-wrapper{
+.content-wrapper {
     display: flex;
     padding: 0;
     justify-content: space-around;
 }
-.container-prod{
+.container-prod {
     max-width: 590px;
     min-width: 130px;
     /*flex*/
@@ -172,7 +172,7 @@ div .redes-menu{
     display: none;
 }
 
-.single-prod{  
+.single-prod {  
     position: relative;
     width: 250px;
     padding: 25px;
@@ -189,15 +189,15 @@ div .redes-menu{
     height: 150px;
 }
 
-.image-wrapper{
+.image-wrapper {
     position:relative;
 }
 
-.container-prod div{
+.container-prod div {
     display: flex;
 }
 
-.description-prod-text{  
+.description-prod-text {  
     position: absolute;
     top: 0;
     bottom: 0;
@@ -214,11 +214,11 @@ div .redes-menu{
     justify-content: center;
 }
 
-.description-prod-text p{
+.description-prod-text p {
     text-align: center;
 }
 
-p, h3{
+p, h3 {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -226,14 +226,14 @@ p, h3{
     margin-inline-end: 0px;
 }
 
-.description-prod{
+.description-prod {
     width: 100%;
     /*flex*/
     display: flex;
     justify-content: space-between;
 }
 
-.title-prod{
+.title-prod {
     width: 130px;
     display: flex;
     align-items: center;
@@ -241,18 +241,18 @@ p, h3{
     margin-right: 20px;
 }
 
-.title-prod, .price-prod{
+.title-prod, .price-prod {
     font-size: 12px;
     font-weight: 700;
 }
 
-.price-prod{
+.price-prod {
     color: #e2132c;
     margin: auto 10px;
     min-width: 50px;
 }
 
-.add-prod{
+.add-prod {
     font-weight: 700;
     margin: 0 5px;
     border-radius: 9px;
