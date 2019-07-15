@@ -296,4 +296,10 @@ width:50px;
     .sub-title {
         border:0;
     }
+
+    .img-promo img {
+        width: 300px;
+        height: auto;
+        margin:0;
+    }
 }
