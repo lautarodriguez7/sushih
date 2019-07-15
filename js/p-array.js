@@ -1,1 +1,4 @@
-var menu = [{} ]
+var menu = [{
+    var entradas = [{#container}]
+    
+}]
