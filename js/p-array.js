@@ -1,4 +1,4 @@
 var menu = [{
-    var entradas = [{#container}]
-    
+    var entradas = [{#container:''}]
+
 }]
