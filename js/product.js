@@ -39,7 +39,7 @@ $(document).ready(function(){
     });
 
     $('#teiwoks').click(function() {
-      
+
       $('.menu-main').removeClass('first');   
       $('#teiwoks').addClass('first');
       $('.container-prod').hide();
@@ -49,6 +49,7 @@ $(document).ready(function(){
     });
 
     $('#salads').click(function() {
+
       $('.menu-main').removeClass('first');   
       $('#salads').addClass('first');
       $('.container-prod').hide();
@@ -58,6 +59,7 @@ $(document).ready(function(){
     });
 
     $('#adicionals').click(function() {
+
       $('.menu-main').removeClass('first');   
       $('#adicionals').addClass('first');
       $('.container-prod').hide();
@@ -67,6 +69,7 @@ $(document).ready(function(){
     });
 
     $('#drinks').click(function() {
+      
       $('.menu-main').removeClass('first');   
       $('#drinks').addClass('first');
       $('.container-prod').hide();
