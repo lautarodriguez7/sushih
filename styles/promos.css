@@ -298,4 +298,8 @@ width:50px;
     .sub-title {
         border:0;
     }
+    .img-promo img {
+        width: 120%;
+        height:auto;
+    }
 }
