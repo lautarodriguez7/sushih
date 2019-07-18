@@ -161,6 +161,8 @@ div .redes-menu {
 
 .img-promo img {
     display: flex;
+    width: auto;
+    height:auto;
 }
 
 footer {
