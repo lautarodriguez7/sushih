@@ -185,6 +185,11 @@ div .redes-menu {
     height: 150px;
 }
 
+.description-prod-text:hover{
+    visibility: visible;
+	padding: 0 5px;
+    opacity: 1;
+}
 .image-wrapper {
     position:relative;
 }
