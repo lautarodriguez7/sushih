@@ -145,7 +145,7 @@ div .redes-menu {
     width: 215px
 }
 
-.sub-title {
+.p-title:hover{
     border-bottom: 3px solid #ff2a2a;
 }
 
