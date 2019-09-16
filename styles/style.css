@@ -6,10 +6,6 @@
     text-transform: uppercase;
 }
 
-div 
-    display: block;
-}
-
 button {
     -webkit-appearance: button;
     text-rendering: auto;
