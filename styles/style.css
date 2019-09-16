@@ -269,6 +269,10 @@ p, h3 {
     background: #fff;
 }
  
+.add-prod:hover {
+    background-color:#e2132c;
+}
+
 .order {
     width: 28%;
     max-width: 600px;
