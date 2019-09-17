@@ -1,9 +1,7 @@
-$(document).ready(function(){
-    $("input[id='w-email']").click(function(){
-        $('#w-email').css('padding','55px');
-    });
+function funcion() {
+    var input = document.getElementById('w-password');
+    var input2 = document.getElementById('w-email');
+    input.style.padding = "5px";
+    input2.style.padding = "10px";
 
-    $("input[id='w-password']").click(function(){
-        $('#w-password').css('padding','55px');
-    });
-});
+}
