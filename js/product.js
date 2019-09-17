@@ -1,7 +1,6 @@
 $(document).ready(function(){
     
     $('#entradas').click(function() {
-
       $('.menu-main').removeClass('first');     
       $('#entradas').addClass('first');
       $('.container-prod').hide();
@@ -9,7 +8,6 @@ $(document).ready(function(){
     });
 
     $('#combinados').click(function() {
-
       $('.menu-main').removeClass('first');     
       $('#combinados').addClass('first');
       $('.container-prod').hide();
@@ -19,7 +17,6 @@ $(document).ready(function(){
     });
 
     $('#rolls').click(function() {
-
       $('.menu-main').removeClass('first');   
       $('#rolls').addClass('first');
       $('.container-prod').hide();
@@ -29,7 +26,6 @@ $(document).ready(function(){
     });
 
     $('#niguiris').click(function() {
-
       $('.menu-main').removeClass('first');   
       $('#niguiris').addClass('first');
       $('.container-prod').hide();
@@ -39,7 +35,6 @@ $(document).ready(function(){
     });
 
     $('#teiwoks').click(function() {
-
       $('.menu-main').removeClass('first');   
       $('#teiwoks').addClass('first');
       $('.container-prod').hide();
@@ -49,7 +44,6 @@ $(document).ready(function(){
     });
 
     $('#salads').click(function() {
-
       $('.menu-main').removeClass('first');   
       $('#salads').addClass('first');
       $('.container-prod').hide();
@@ -59,7 +53,6 @@ $(document).ready(function(){
     });
 
     $('#adicionals').click(function() {
-
       $('.menu-main').removeClass('first');   
       $('#adicionals').addClass('first');
       $('.container-prod').hide();
@@ -69,7 +62,6 @@ $(document).ready(function(){
     });
 
     $('#drinks').click(function() {
-      
       $('.menu-main').removeClass('first');   
       $('#drinks').addClass('first');
       $('.container-prod').hide();
