@@ -215,6 +215,12 @@ div .redes-menu {
     justify-content: center;
 }
 
+.image-wrapper:hover .description-prod-text{
+	visibility: visible;
+	padding: 0 5px;
+  opacity: 1;
+}
+
 .description-prod-text p {
     text-align: center;
 }
